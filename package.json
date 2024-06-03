@@ -54,5 +54,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "postbuild": "tsc --declaration --declarationDir build --stripInternal --emitDeclarationOnly"
+  },
+  "publishConfig": {
+    "@Isle-sur-la-Sorgue-Tourisme:registry":"https://npm.pkg.github.com"
   }
 }
